@@ -1,0 +1,15 @@
+{
+  "name":         "Obsidian",
+  "version":      "0.1",
+  "description":  "A double key/value database with cursors on first key. Basis for PDB.",
+  "author":       "Steve Dekorte",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["Obsidian", "ObsidianServer", "ObsidianClient", "PDB", "PMap"],
+  "dependencies": {
+    "libs":     [],
+    "headers":  [],
+    "protos":   [],
+    "packages": ["https://github.com/IoLanguage/TokyoCabinet.git", "https://github.com/IoLanguage/UUID.git"]
+  }
+}
